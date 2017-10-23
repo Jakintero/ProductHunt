@@ -34,6 +34,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'gravatar-ultimate'
 gem 'xmlrpc'
 gem 'annotate'
+ruby "2.4.1"
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
