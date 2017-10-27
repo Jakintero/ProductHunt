@@ -15,7 +15,7 @@ class User < ApplicationRecord
   has_secure_password validations: false
 
   has_many :products, dependent: :destroy
-  has_many :comments
+  has_many :comments, dependent: :destroy
   has_many :votes
   validates :email, uniqueness: true, format: /@/
   validates :password, presence: true, on: :create
