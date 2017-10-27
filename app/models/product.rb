@@ -16,7 +16,7 @@
 #
 
 class Product < ActiveRecord::Base
-  belongs_to :user
+  belongs_to :user, dependent: :destroy
   has_many :comments, dependent: :destroy
   has_many :votes
 
