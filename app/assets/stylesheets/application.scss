@@ -2,6 +2,12 @@
 @import "bootstrap";
 @import "products";
 
+html body{
+  background-image: url("https://wallpaperscraft.com/image/road_traffic_fall_twist_91486_3840x2160.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 .navbar-nav > li > a.avatar {
   padding-top: 7px;
   padding-bottom: 7px;
