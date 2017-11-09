@@ -52,6 +52,7 @@
     float: left;
     margin-right: 30px;
 
+
     img { border-radius: 3px;
     }
   }
@@ -96,6 +97,7 @@
     padding: 100px 25px;
     margin-top: -20px;
     margin-bottom: 30px;
+    box-shadow: 2px 1px 7px gray;
 
     h1 {
       font-size: 32px;
@@ -118,24 +120,30 @@
   .votes {
     margin-bottom: 40px;
     padding: 0 25px;
-    
+
 
     h2 {
-      color: #666;
+      color: white;
       font-size: 16px;
       margin-bottom: 20px;
+      text-shadow: 1px 2px 3px #666;
     }
 
-    img { width: 40px; }
+    img { width: 50px;
+      border: 1px solid white;
+      box-shadow: 2px 1px 7px white;
+
+    }
   }
 
   .comments {
     padding: 0 25px;
 
     h2 {
-      color: #666;
+      color: white;
       font-size: 16px;
       margin-bottom: 20px;
+      text-shadow: 1px 2px 3px #666;
     }
 
     img {
