@@ -7,10 +7,14 @@ html body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+
 }
 .navbar-nav > li > a.avatar {
   padding-top: 7px;
   padding-bottom: 7px;
   img { width: 42px; }
 
+}
+.navbar-default{
+  opacity: 0.97;
 }
