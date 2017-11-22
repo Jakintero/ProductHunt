@@ -118,7 +118,35 @@
       font-weight: bold;
     }
   }
+  .glyphicon {
+    font-size: 22px;
+    color: white;
+    text-shadow: 1px 2px 3px black;
+  }
 
+  @keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+  	}
+  }
+  .glyphicon:hover {
+  animation: bounce 1s;
+  color: #6495ED;
+  text-shadow: 1px 1px 2px black;
+
+
+}
   .votes {
     margin-bottom: 40px;
     padding: 0 25px;
